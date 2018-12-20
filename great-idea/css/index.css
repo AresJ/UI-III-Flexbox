@@ -64,14 +64,68 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* index page */ 
 html, body{
 	position: relative;
 }
 .container{
-	width: 860px;
+	width: 880px;
 	margin: 0 auto;
 }
-.container header nav {
+.upper-nav{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+.upper-nav a.first-item{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.upper-nav a{
+	margin: 5px;
+	height: auto;
+	padding: 25px 15px;
+	font-size: 14px;
+	color: silver;
+	display: block;
+	text-decoration: none;
+}
+h2{
+	font-size: 28px;
+	font-style: bold;
+	padding: 15px;
+}
+.services h2{
+	padding: 0px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.services p{
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+.rows{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.columns{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.column-a{
+	display: flex;
+	flex-direction: column;
+}
+.column-b{
+	display: flex;
+	flex-direction: column;
+}
+/* .container header nav {
 	padding: 20px 10px;
 	margin: 0 20px;
 }
@@ -86,7 +140,7 @@ html, body{
 	color: gray;
 	text-decoration: none;
 	height: 30px;
-}
+} */
 .mid-container{
 	display: table;
 	padding: 10px;
@@ -161,3 +215,5 @@ footer{
 	margin: 0 auto;
 	width: 142px;
 }
+
+/* services page */
