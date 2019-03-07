@@ -252,10 +252,15 @@ footer {
 	padding: 40px 25px;
 }
 address{
-	float: left;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 	padding: 30px;
 	display: inline;
-	position: relative;
+}
+h5.contact{
+	font-family: 'Titillium Web', sans-serif;
 }
 footer{
 	padding: 30px;
